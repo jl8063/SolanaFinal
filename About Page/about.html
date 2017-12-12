@@ -14,12 +14,14 @@
     <link href="../startbootstrap-half-slider-master/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	  
     <link href="../startbootstrap-half-slider-master/css/half-slider.css" rel="stylesheet">
 	  
 	<link href = "Facebook.css" rel = "stylesheet">
 
   
-	<link rel="stylesheet" href="css/bootstrap.css">
+	
 	  
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,6 +39,12 @@
 	
 		
 }
+	.facebook{
+			position: fixed;
+			float: right;
+			
+			
+		}
 .bg { 
 	
 	
@@ -70,7 +78,17 @@
 		
 		</style>
   <body>
-
+	  
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	  
+	  
     <!-- Navigation -->
  <nav class="navbar navbar-default navbar-inverse" id = "navbar">
 	
@@ -142,6 +160,7 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
+		  <div class="col-8">
         <h1>About 
 		  Us</h1>
         <p>Michael Heitzman and Ilene Reid are the Grammy-nominated songwriters of “Throw That Girl Around” from the Broadway musical, Swing!<br>
@@ -166,29 +185,20 @@ They are both proud members of The Dramatists Guild, BMI and the Writer’s Guil
 
          </p>
       </div>
+		  </div>
     </section>
 	  
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-6">
-            <div class="box">
-                <div class="box-icon">
-                    <span class="fa fa-4x fa-facebook"></span>
-                </div>
-                <div class="info">
-                    <h4 class="text-center">Find Us On Facebook</h4>
-                 <iframe id="facebook-feed" src="https://www.facebook.com/Heitzman-Reid-816423955144129/" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:300px;" allowTransparency="true"></iframe>
-                </div>
-            </div>
-        </div>
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
 
+      <!-- /.container -->
+  <div class="container">
+	  <div class="facebook">
+	  <div class="col-4">
+		  
+		  
+	<div class="fb-page" data-href="https://www.facebook.com/Heitzman-Reid-816423955144129/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Heitzman-Reid-816423955144129/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Heitzman-Reid-816423955144129/">Heitzman &amp; Reid</a></blockquote></div>
+	  </div>
+	</div>
+	</div>
     <!-- Bootstrap core JavaScript -->
     <script src="../startbootstrap-half-slider-master/vendor/jquery/jquery.min.js"></script>
     <script src="../startbootstrap-half-slider-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
