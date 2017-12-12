@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Solana the Muscial</title>
+<title>Bootstrap Portfolio template</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,242 +16,185 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-	
-	
-	<style>
-	body, html {
-    height: 100%;
-}
-.bg { 
-	
-	
-    /* The image used */
-	
-    background-image: url(../images/Treebackground.png);
-	
-    /* Full height */
-    height: 100%; 
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	
-}
-		.navbar{
-			text color: white;
-			font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-			background-color: rgb(38,98,119);
-			text-emphasis-style: sesame;
-		}
-		
-		body {
-			font: normal
-			font-family:  "bilbo-swash-caps";
-		}
-		
-		footer {
-			position: fixed;
-		}
-		
-		</style>
-
-
-
-            
 <body>
-<nav class="navbar navbar-default navbar-inverse" id = "navbar">
-	
-  <div class="container-fluid"> 
+<nav class="navbar navbar-default">
+  <div class="container"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myDefaultNavbar1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#">Brand</a> </div>
-    
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="myDefaultNavbar1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a> </li>
-        <li><a href="#">Link</a> </li>
-        <li><a href="#">About Us</a> </li>
-        <li><a href="#">Home</a> </li>
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Facebook</a> </li>
-        <li><a href="#">Twitter</a> </li>
-      </ul>
-    </div>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+</div>
     <!-- /.navbar-collapse --> 
   </div>
   <!-- /.container-fluid --> 
 </nav>
-	
-	<body>
-	  
-
-<section class="bg" id = "opacity">
-
-
-   
-	
-<div class="container" id = opacity >
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="jumbotron">
-        
-        <div class="row">
-			
-          
-          
-        
-       
-        <img src="../FinalSolanaOnePage.png" alt="" class="img-responsive"> 
-		<h2 class="text-center">Solana explores what it means to be a family.</h2>
-		  </div>
-	    </div>
-		</div>
-    </div>
-  </div>
-		
-</div>
-<div class="container">
-  <div class="row">
-    <div class="text-center col-sm-6">
-      <h3>Feautured in Playbill</h3>
-      <p>Derek Klena, Jon Jon Briones, Ann Harada, and More Set for Reading of New Musical Solana</p>
-      <a class="btn btn-danger btn-lg" href="http://www.playbill.com/article/derek-klena-jon-jon-briones-ann-harada-and-more-set-for-reading-of-new-musical-solana" role="button">Read More</a></div>
-    <div class="text-center col-sm-6">
-      <h3>Performed at Tuachan New Works Festival</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, magnam?</p>
-      <a class="btn btn-info btn-lg" href="https://www.tuacahn.org/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9C255DB8-7DBD-406A-9E2B-91AC38047AA5" role="button">Documentation</a></div>
-  </div>
-</div>
-<hr>
-<div class="container">
-  <div class="row">
-<div class="col-lg-3 col-md-6 col-sm-6">
-      <h2><span class="glyphicon glyphicon-music" aria-hidden="true"></span> The Story</h2>
-      <p>Twenty-five year old, adopted Asian-American, Chloe Ellsworth, is still living at home with her family on their farm in Indiana. When an unexpected visitor arrives, everything changes and she is thrown into an unexpected fairy-tale journey full of surprises, twists and turns resulting in a profound understanding about herself and the unresolved feelings she has harbored about her adoption.</p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6"> </div>
-    <div class="col-lg-3 col-md-6 col-sm-6">
-      <h2><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Lorem ipsum</h2>
-</div>
-  </div>
-</div>
-
-<section class="well">
-<h2 class="text-center">Derek Klena</h2>
-<hr>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=f6EVL065Vec"></iframe>
+<section>
+  <div class="jumbotron text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs12">
+			<img src="file:///Macintosh%20HD/Users/jillianlarson/Desktop/Solana%20Website/IMG/Logo.png"
+			<p>Solana explores the changing landscape of what it means to be a family</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="thumbnail"> <img src="../images/600X300.gif" alt="Thumbnail Image 1" class="img-responsive">
-        <div class="caption">
-          <h3>Feature</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, at.</p>
-          <hr>
-          <p><a href="#" class="btn btn-success" role="button">Button</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="thumbnail"> <img src="../images/600X300.gif" alt="Thumbnail Image 1" class="img-responsive">
-        <div class="caption">
-          <h3>Feature</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, atque.</p>
-          <hr>
-          <p><a href="#" class="btn btn-success" role="button">Button</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  
-        <!-- Table -->
-        
-   
-      
-              <th scope="row"><p class="text-center"><a href="" class="btn-info btn"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Buy Now</a></p></th>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    
-  </div>
-</div>
-<hr>
-<div class="container">
-  <div class="row">
-<div class="col-lg-4 col-md-6 col-sm-6">
-      <h2>Contact Us</h2>
-      <address>
-      <strong>MyCompany, Inc.</strong><br>
-      Sunny Autumn Plaza, Grand Coulee,<br>
-      CA, 91308-4075, US<br>
-      <abbr title="Phone">P:</abbr> (123) 456-7890
-      </address>
-      <h4>Social</h4>
-      <div class="row">
-      	<div class="col-xs-2"><img class="img-circle" src="../images/32X32.gif" alt=""></div>
-      	<div class="col-xs-2"><img class="img-circle" src="../images/32X32.gif" alt=""></div>
-      	<div class="col-xs-2"><img class="img-circle" src="../images/32X32.gif" alt=""></div>
-      	<div class="col-xs-2"><img class="img-circle" src="../images/32X32.gif" alt=""></div>        
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-6">
-      <h2>Testimonials</h2>
-      <div class="media">
-        <div class="media-left"> <a href="#"> <img class="media-object" src="../images/35X35.gif" alt="..."> </a> </div>
-        <div class="media-body">
-          <h4 class="media-heading">Media heading</h4>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
-      </div>
-      <div class="media">
-        <div class="media-left"> <a href="#"> <img class="media-object" src="../images/35X35.gif" alt="..."> </a> </div>
-        <div class="media-body">
-          <h4 class="media-heading">Media heading</h4>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-12">
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, voluptates, soluta velit nostrum ut iste exercitationem vitae ipsum repellendus laudantium ab possimus nemo odio cumque illum nulla laborum blanditiis unde.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, voluptates, soluta velit nostrum ut iste exercitationem vitae ipsum repellendus laudantium ab possimus nemo odio cumque illum nulla laborum blanditiis unde.</p>
-    </div>
-  
-  <hr>
-		</div>
-
-
-
-<footer class="text-center" id = "footer">
+<section>
   <div class="container">
     <div class="row">
-		<div class="footer"
-      <div class="col-xs-12">
-        <p>Copyright © MyWebsite. All rights reserved.</p>
+      <div class="col-xs-12 text-center">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
       </div>
     </div>
   </div>
+</section>
+<section>
+  <div class="container well">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img class="media-object" src="images/35X35.gif" alt="..."> </a> </div>
+          <div class="media-body">
+            <h2 class="media-heading">Media heading</h2>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img class="media-object" src="images/35X35.gif" alt="..."> </a> </div>
+          <div class="media-body">
+            <h2 class="media-heading">Media heading</h2>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img class="media-object" src="images/35X35.gif" alt="..."></a></div>
+          <div class="media-body">
+            <h2 class="media-heading">Media heading</h2>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+        	<div class="col-lg-12 text-center">
+            	<h2>Latest Work</h2>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 text-center">
+            	<img src="images/400x400.gif" alt="">
+                <h3>Lorem ipsum dolor sit amet, consectetur elit</h3>
+                <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+            </div>
+        	<div class="col-md-6 text-center">
+            	<img src="images/400x400.gif" alt="">
+                <h3>Lorem ipsum dolor sit amet, consectetur elit</h3>
+                <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
+			<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
+      </div>
+      <hr>
+        <div class="row">
+          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
+        </div>
+	</div>
+</section>
+<hr>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
+		<button type="button" class="btn btn-success">Get in touch</button>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<div class="section well">
+    <div class="container">
+   	  <div class="row">
+		<div class="col-lg-4 col-md-4">
+            <h3 class="text-center">WHO WE ARE</h3>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, ducimus, sit, quibusdam quidem recusandae veniam eos quod error nisi repellat excepturi laboriosam aspernatur suscipit possimus consectetur dolores nihil labore quas eius illo accusamus nulla sed blanditiis porro accusantium. Perspiciatis, perferendis!</h5>
+        </div>
+		<div class="col-lg-4 col-md-4">
+		  <h3 class="text-center">GET IN TOUCH</h3>
+          <address class="text-center">
+  <strong>MyCompany, Inc.</strong><br>
+  Sunny Autumn Plaza, Grand Coulee,<br>
+  CA, 91308-4075, US<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
 </div>
-	
+		<div class="col-lg-4 col-md-4">
+		  <h3 class="text-center">NEWSLETTER</h3>
+          <form>
+    <div class="form-group col-lg-9 col-md-8 col-sm-10 col-xs-10">
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    </div>
+<button type="submit" class="btn btn-default">Subscribe<br>
+</button>
+</form>
+		</div>
+</div>
+    </div>
+	</div>
+    <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © MyCompany. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="../js/jquery-1.11.3.min.js"></script> 
+<script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="../js/bootstrap.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
