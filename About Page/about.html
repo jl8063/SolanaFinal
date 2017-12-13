@@ -20,8 +20,6 @@
 	  
     <link href="../startbootstrap-half-slider-master/css/half-slider.css" rel="stylesheet">
 	  
-	<link href = "Facebook.css" rel = "stylesheet">
-
   
 	
 	  
@@ -70,9 +68,17 @@
 			text-emphasis-style: sesame;
 		}
 		
-		body {
-			font: normal
+		#body-about {
+			margin-top: auto;
+			font-size: 16px;
 			font-family:  "bilbo-swash-caps";
+			
+		}
+		#body-about-box {
+			font-size: 16px;
+			font-family:  "bilbo-swash-caps";
+			background-color: rgba(0,0,0,0.47)
+			
 		}
 		
 
@@ -85,16 +91,16 @@
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#">Solana</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-        <li><a href="About Page/about.html">About Us</a> </li>
-        <li><a href="Demo Page/Demo.html">Demo</a> </li>
-        <li><a href="contact.html">Contact</a> </li>
+        <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li><a href="about.html">About Us</a> </li>
+        <li><a href="../Demo Page/Demo.html">Demo</a> </li>
+        <li><a href="../contact.html">Contact</a> </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Facebook</a> </li>
@@ -118,21 +124,21 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('../cm112011michael06.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id = "body-about-box">
               <h3>Heitzman & Reid</h3>
               <p>Writers. Composers. Creators.</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('Contact.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id = "body-about-box">
               <h3>Heitzman & Reid</h3>
               <p>Writers. Composers. Creators.</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('About.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id = "body-about-box">
               <h3>Heitzman & Reid</h3>
               <p>Writers. Composers. Creators.</p>
             </div>
@@ -163,7 +169,8 @@
     <!-- Page Content -->
 
 <div class="container">
-		  <div class="col-8">
+		  <div class="col-8" id = "body-about">
+			  
         <h1>About 
 		  Us</h1>
         <p>Michael Heitzman and Ilene Reid are the Grammy-nominated songwriters of “Throw That Girl Around” from the Broadway musical, Swing!<br>
@@ -187,6 +194,7 @@ In addition to having several theatrical, TV and film scripts in development, th
 They are both proud members of The Dramatists Guild, BMI and the Writer’s Guild of America, East.
 
          </p>
+			  </div>
       </div>
 		 
 
