@@ -22,10 +22,24 @@ body, html {
 }
 
 .navbar{
-	background-color: rgb(38,98,119)
-}
-
-
+			text color: orangered;
+			font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: rgb(38,98,119);
+			text-emphasis-style: sesame;
+			color: white;
+		}
+#logo {
+			rgba(0,0,0,.10);
+			border-color: white;
+			border-radius: 5px;
+			
+		}
+#logo.hover {
+    		height:150%;
+    		width: 150%;
+		}
+		
+		
 
 html {
   font-family: ;
@@ -5829,7 +5843,7 @@ button.list-group-item-danger.active:focus {
 	position: absolute;
 	top: 26px;
 	bottom: 0;
-	left: 37px;
+	left: 60px;
 	width: 869px;
 	height: 465px;
 	border: 0;
