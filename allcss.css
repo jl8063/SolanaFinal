@@ -5,14 +5,14 @@ body, html {
 	
 		
 }
-.h2{
+h2{
 			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			font-size: 18px;
 			background-color: rgba(255,255,255,0.19);
 			text-overflow: clip;
 			
 		}
-.bg { 
+bg { 
 	
 	
     /* The image used */
@@ -35,13 +35,13 @@ body, html {
 		
 		}
 		
-		.body {
+		body {
 			font: normal
 			font-family:  "bilbo-swash-caps";
 		}
 		
 	
-		.container{
+		container{
 		background-color: rgba(255,230,175,0.19);
 		}
 		
@@ -58,17 +58,7 @@ body, html {
 		}
 		
 		
-		.btn-success{
-			background-color: rgba(9,68,232,1.00);
-			border-radius: 0px;
-		}
-
-		.btn-success:hover{
-		background-color: grey;
-		}
-		.btn-danger{
-			background-color: rgba(255,44,45,0.74);
-		}
+		
 		
 		#heading {
 			font-family: "bilbo-swash-caps", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
@@ -86,13 +76,13 @@ body, html {
 
 
 		
-		.body {
+		body {
 			font: normal
 			font-family:  "bilbo-swash-caps";
 		}
 		
 	
-		.container{
+		container{
 		background-color: rgba(255,230,175,0.19);
 		}
 
@@ -109,7 +99,7 @@ body, html {
     		width: 150%;
 		}
 		
-.facebook{
+facebook{
 			position: fixed;
 			float: right;
 			
