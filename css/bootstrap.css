@@ -33,6 +33,35 @@ body, html {
     background-size: cover;
 	
 }
+		#heading {
+			font-family: "bilbo-swash-caps", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			font-size: 40px;
+			background-color: rgba(232,232,232,0.40);
+		
+		}
+		
+		.body {
+			font: normal
+			font-family:  "bilbo-swash-caps";
+		}
+		
+	
+		.container{
+		background-color: rgba(255,230,175,0.19);
+		}
+		
+		#logo {
+			rgba(0,0,0,.10);
+			border-color: white;
+			border-radius: 5px;
+			
+			
+		}
+		#logo:hover {
+    		height:150%;
+    		width: 150%;
+		}
+		
 		
 		.btn-success{
 			background-color: rgba(9,68,232,1.00);
@@ -59,8 +88,6 @@ body, html {
 			color: white;
 		}
 		
-
-
 
 
 		
