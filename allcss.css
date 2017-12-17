@@ -92,8 +92,11 @@ body, html {
 			background-color: rgb(38,98,119);
 			text-emphasis-style: sesame;
 			color: white;
+			
 		}
-		
+		a.navbar{
+	color: white;
+	}
 
 
 		
