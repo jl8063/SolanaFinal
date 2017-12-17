@@ -85,7 +85,7 @@ body, html {
 		#navbar{
 			font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 			background-color: rgb(38,98,119);
-			text-emphasis-style: sesame;
+			text-emphasis-style: none;
 			color: white;
 			
 		}
