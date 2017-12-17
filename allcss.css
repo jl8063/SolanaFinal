@@ -101,9 +101,9 @@ body, html {
 		}
 		
 .facebook{
-			position: fixed;
+			position: relative;
 			float: right;
-			
+			padding: 40px;
 			
 		}
 		
