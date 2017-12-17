@@ -6,6 +6,13 @@ body, html {
 		
 }
 
+#sb{
+ position:relative;
+ top:0;
+ left:0;
+ }
+
+
 .btn-success{
 			background-color: rgba(9,68,232,1.00);
 			border-radius: 0px;
@@ -142,3 +149,19 @@ body, html {
 }
 	
 		
+#quote {
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#quote:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+
+}

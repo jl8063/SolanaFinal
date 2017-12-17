@@ -3,6 +3,18 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under the MIT license
  */
+var sb = document.getElementById("sb");
+var bg = document.getElementById("bg");
+
+TweenMax.set(sb,{opacity:0});
+// animate CSS opacity to 1
+TweenMax.to(sb,4, {opacity:1});
+
+TweenMax.set($.bg,{opacity:0});
+// animate CSS opacity to 1
+TweenMax.to($.bg,10, {opacity:1});
+
+/*TweenMax.to(sb, 2, {autoAlpha:1, repeat:1, yoyo:true, ease: Linear.easeNone}, 0);*/
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery');
