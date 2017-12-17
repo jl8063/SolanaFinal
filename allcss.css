@@ -5,6 +5,19 @@ body, html {
 	
 		
 }
+
+.btn-success{
+			background-color: rgba(9,68,232,1.00);
+			border-radius: 0px;
+		}
+
+.btn-success:hover{
+		background-color: grey;
+		}
+.btn-danger{
+			background-color: rgba(255,44,45,0.74);
+		}
+
 .h2{
 			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			font-size: 18px;

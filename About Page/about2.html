@@ -10,7 +10,11 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="../css/bootstrap.css">
 <link rel="stylesheet" href="../allcss.css">
-
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
 </head>
 	
 	
@@ -39,9 +43,9 @@
 </nav>
 	
 	<body>
+		
 
-
-   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -121,6 +125,17 @@ They are both proud members of The Dramatists Guild, BMI and the Writer’s Guil
 	</div>
 		
  <!-- /.container -->
+ <script type="text/javascript">
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Slider2" ).slider(); 
+});
+$(function() {
+	$( "#Slider3" ).slider(); 
+});
+ </script>
 </body>
     <!-- Bootstrap core JavaScript -->
     
@@ -173,7 +188,7 @@ They are both proud members of The Dramatists Guild, BMI and the Writer’s Guil
       </div>
     </div>
   </div>	
-	</section>
+  </section>
 	
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

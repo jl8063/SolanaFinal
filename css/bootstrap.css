@@ -16,7 +16,6 @@ btn-success:hover{
 btn-danger{
 			background-color: rgba(255,44,45,0.74);
 		}
-
 html {
  font-family: ;
   -webkit-text-size-adjust: 100%;
@@ -5817,9 +5816,9 @@ button.list-group-item-danger.active:focus {
 .embed-responsive object,
 .embed-responsive video {
 	position: absolute;
-	top: 26px;
+	top: 24px;
 	bottom: 0;
-	left: 60px;
+	left: 51px;
 	width: 869px;
 	height: 465px;
 	border: 0;
