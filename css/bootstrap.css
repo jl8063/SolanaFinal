@@ -5,15 +5,15 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-.btn-success{
+btn-success{
 			background-color: rgba(9,68,232,1.00);
 			border-radius: 0px;
 		}
 
-.btn-success:hover{
+btn-success:hover{
 		background-color: grey;
 		}
-.btn-danger{
+btn-danger{
 			background-color: rgba(255,44,45,0.74);
 		}
 
